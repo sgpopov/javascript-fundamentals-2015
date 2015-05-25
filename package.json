@@ -1,0 +1,46 @@
+{
+  "name": "javascript-fundamentals-2015",
+  "version": "0.0.1",
+  "description": "JavaScript Fundamentals Course Repository",
+  "license": "MIT",
+  "author": {
+    "name": "Svilen Popov",
+    "email": "svil4ok@gmail.com",
+    "url": "https://twitter.com/svil4ok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/svil4ok/javascript-fundamentals-2015.git"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.7.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/svil4ok/javascript-fundamentals-2015/issues"
+  },
+  "devDependencies": {
+    "browserify": "^10.1.0",
+    "chalk": "^1.0.0",
+    "eslint": "^0.20.0",
+    "eslint-stylish-config": "0.0.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^12.0.0",
+    "grunt-karma": "^0.10.1",
+    "jasmine-core": "^2.3.0",
+    "jshint-stylish": "^1.0.2",
+    "jshint-stylish-ex": "^0.2.0",
+    "karma": "^0.12.31",
+    "karma-browserify": "^4.1.2",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "load-grunt-tasks": "^3.1.0"
+  },
+  "dependencies": {}
+}

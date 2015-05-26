@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loops | JavaScript Fundamentals Course at Telerik Academy</title>
+  <meta charset="utf-8" />
+</head>
+<body>
+  <h1>Problem 4. Lexicographically smallest</h1>
+  <p>
+    Write a script that finds the lexicographically smallest and largest
+    property in document, window and navigator objects.
+  </p>
+  <p>
+    <a href="javascript:;" onclick="showProperties()">Show properties</a>
+  </p>
+
+  <script type="text/javascript">
+    function findSmallestAndLargestProperty(object) {
+      var smallest = 'zzz';
+      var largest = 'aaa';
+
+      for (var property in object) {
+        if (property < smallest) {
+          smallest = property;
+        }
+
+        if (property > largest) {
+          largest = property;
+        }
+      }
+
+      alert("Property = " + property + ";\n" +
+        "Smallest = " + smallest + ";\n" +
+        "Largest = " + largest);
+    }
+
+    function showProperties() {
+      findSmallestAndLargestProperty(document);
+      findSmallestAndLargestProperty(window);
+      findSmallestAndLargestProperty(navigator);
+    }
+  </script>
+</body>
+</html>
